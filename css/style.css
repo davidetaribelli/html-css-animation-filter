@@ -103,10 +103,12 @@
     }
 }
 
-.ex-11-icon {
+.ex-11-icon{
     font-size: 60px;
+}
+
+.ex-11-icon:hover{
     animation: rotate2 1s;
-    animation-iteration-count: infinite;
 }
 
 @keyframes rotate2 {
@@ -115,7 +117,7 @@
     }
 
     90% {
-        transform: rotate(315deg);
+        transform: rotate(270deg);
     }
 
     100%{
